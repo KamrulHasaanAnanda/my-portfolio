@@ -1,5 +1,5 @@
 const nextConfig = {
-  output: 'export', // 👈 required for GitHub Pages
+  output: "export",
   basePath: process.env.NEXT_PUBLIC_BASE_PATH || "/my-portfolio", // Replace <repo-name> with your repo (e.g., "my-portfolio")
   assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || "/my-portfolio/",
   images: {
