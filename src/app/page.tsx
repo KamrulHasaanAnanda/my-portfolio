@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaEnvelope, FaDownload, FaArrowRight, FaExternalLinkAlt, FaPhone, FaBars, FaTimes } from "react-icons/fa";
-import { SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiJavascript, SiHtml5, SiCss3, SiGit, SiRedux, SiFigma, SiFirebase, SiNodedotjs, SiMongodb, SiSupabase, SiAntdesign, SiSvelte, SiRemix } from "react-icons/si";
+import { SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiJavascript, SiRedux, SiFigma, SiFirebase, SiNodedotjs, SiMongodb, SiSupabase, SiAntdesign, SiSvelte, SiRemix } from "react-icons/si";
 import { useState } from "react";
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
                 href="#contact"
                 className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
               >
-                Let's Talk
+                Let&apos;s Talk
               </a>
             </div>
 
@@ -90,7 +90,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl text-center mt-2"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Let's Talk
+                  Let&apos;s Talk
                 </a>
               </div>
             </div>
@@ -224,7 +224,7 @@ export default function Home() {
                     <div className="text-blue-600">const</div>
                     <div className="text-green-600">developer</div>
                     <div className="text-purple-600">=</div>
-                    <div className="text-orange-600">"awesome"</div>
+                    <div className="text-orange-600">&quot;awesome&quot;</div>
                   </div>
                 </div>
 
@@ -255,7 +255,7 @@ export default function Home() {
             <div className="lg:col-span-2">
               <h3 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6 sm:mb-8">My Journey</h3>
               <p className="text-base sm:text-lg text-slate-600 mb-6 leading-relaxed">
-                I've spent the last 5+ years crafting exceptional user experiences for startups and enterprise companies.
+                I&apos;ve spent the last 5+ years crafting exceptional user experiences for startups and enterprise companies.
                 My expertise spans from building performant React applications to architecting scalable frontend systems
                 that serve thousands of users.
               </p>
@@ -371,7 +371,7 @@ export default function Home() {
                 <div className="text-slate-500 mt-2 lg:mt-0">September 2022 - February 2023</div>
               </div>
               <p className="text-slate-600 leading-relaxed mb-4 sm:mb-6 text-base sm:text-lg">
-                Contributed to Wholesalecart.com, winner of South Asian Business Excellence Award 2022 as "BEST B2B E-COMMERCE WEBSITE".
+                Contributed to Wholesalecart.com, winner of South Asian Business Excellence Award 2022 as &quot;BEST B2B E-COMMERCE WEBSITE&quot;.
                 Worked on OneSale Mart ERP system and maintained web application performance.
               </p>
               <div className="flex flex-wrap gap-2 sm:gap-3">
@@ -663,7 +663,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto relative z-10">
           <div className="text-center mb-12 sm:mb-16 animate-fade-in-up">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4 sm:mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-gradient-x">
-              Let's Work Together
+              Let&apos;s Work Together
             </h2>
             <p className="text-lg sm:text-xl text-slate-600 animate-fade-in-up delay-200">
               Ready to build something amazing?
@@ -684,7 +684,7 @@ export default function Home() {
               Get in Touch
             </h3>
             <p className="text-slate-600 mb-8 sm:mb-12 leading-relaxed text-sm sm:text-lg max-w-2xl mx-auto relative z-10">
-              I'm always interested in new opportunities and exciting projects. Whether you have a question
+              I&apos;m always interested in new opportunities and exciting projects. Whether you have a question
               or want to discuss a potential collaboration, feel free to reach out!
             </p>
 
