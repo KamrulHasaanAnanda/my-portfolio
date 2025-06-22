@@ -1,11 +1,11 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "/my-portfolio", // Replace <repo-name> with your repo (e.g., "my-portfolio")
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || "/my-portfolio/",
+  output: 'export',
+  basePath: '/my-portfolio', // your GitHub repo name
   images: {
-    unoptimized: true, // 👈 disable image optimization for static export
+    unoptimized: true, // required for static export
   },
-  // basePath: "/portfolio", // 👈 if your repo is named 'portfolio'
+  assetPrefix: '/my-portfolio/', // also based on repo name
 };
 
 module.exports = nextConfig;
