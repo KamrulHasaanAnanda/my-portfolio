@@ -2,14 +2,14 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://KamrulHasaanAnanda.github.io/portfolio",
+  "homepage": "https://KamrulHasaanAnanda.github.io/my-portfolio",
   "scripts": {
     "dev": "next dev --turbopack",
     "start": "next start",
     "lint": "next lint",
     "build": "next build && next export",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "next": "15.3.4",
