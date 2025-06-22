@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  output: 'export', // 👈 required for GitHub Pages
+  images: {
+    unoptimized: true, // 👈 disable image optimization for static export
+  },
+  basePath: "/portfolio", // 👈 if your repo is named 'portfolio'
 };
 
-export default nextConfig;
+module.exports = nextConfig;
